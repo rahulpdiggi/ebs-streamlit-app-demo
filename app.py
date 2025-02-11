@@ -76,3 +76,4 @@ if st.button('Reset Quiz'):
     st.session_state.score = 0
     st.session_state.answered_questions = set()
     st.experimental_rerun()
+    
